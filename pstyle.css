@@ -1,0 +1,97 @@
+:root{
+    --brandcolor: orangered;
+}
+
+
+
+.bg-black{
+    background-color: rgba(0,0,0,0.9);
+}
+
+.bg-img{
+    background-image: url(careerbg_banner.jpg);
+}
+
+.jumbo-back-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
+
+.bg-brand{
+    background-color: var(--brandcolor);
+}
+
+.text-brand{
+    color: var(--brandcolor);
+}
+.margin-reduce{
+    margin-top: -6rem;
+}
+
+.bd-none{
+    border: none;
+}
+
+.bg-blue{
+    background-color: var(--fadeBlue);
+}
+
+.text-blue{
+    color: var(--fadeBlue);
+}
+
+.product-height-footer{
+    height: 50px;
+}
+
+.font-height-5{
+    font-size: 4rem;
+}
+
+.bg-shadow-img{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/data/manufacture_1.jpg);
+}
+
+.span-color{
+    color: var(--brandcolor);
+}
+
+.bg-trans{
+    background-color: transparent;
+}
+
+.pos-top{
+    position: relative;
+    bottom: 6.6rem;
+    z-index: 0;
+}
+
+
+
+
+.bd-rounded{
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.bd-rounded:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid var(--brandcolor);
+}
+
+
+
+.link a{
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.link a:hover{
+    color: var(--brandcolor);
+}
